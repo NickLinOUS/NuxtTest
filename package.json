@@ -2,11 +2,18 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "del": "git branch -r -d origin/master && git push origin :master",
+    "push": "push-dir --dir=dist --branch=master --cleanup --allow-unclean",
+    "copy": "cp-file README.md dist/README.md ",
+    "dev": "nuxt",  
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate && npm run copy",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "deploy": "npm run generate  && push-dir --dir=dist --branch=master --cleanup --allow-unclean",
+    "precommit": "npm run lint"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
