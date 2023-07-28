@@ -1,10 +1,15 @@
 <template>
-  <div class="bg-white py-24">
-    <div class="flex flex-col items-center">
-      <h1 class="text-6xl font-semibold text-sky-400">2022 iThome</h1>
-      <p class="mt-4 text-9xl font-bold text-gray-600">鐵人賽</p>
+   <div style="width: 100%;height: 100vh;">
+          <iframe
+          style="width: 100%; height: 100%;"
+      src="https://online.fliphtml5.com/igxbs/jatu/"
+      seamless="seamless"
+      scrolling="no"
+      frameborder="0"
+      allowtransparency="true"
+      allowfullscreen="true"
+    ></iframe>  
     </div>
-  </div>
 </template>
 
 <script>

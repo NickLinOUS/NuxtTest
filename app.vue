@@ -3,7 +3,7 @@
     <!-- <NuxtWelcome /> -->
     <div>Hi yi!!!</div>
     <Yee />
-    <File />
-    <Testdeep />
+    <!-- <File />
+    <Testdeep /> -->
   </div>
 </template>
