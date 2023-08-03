@@ -11,18 +11,6 @@
       style="width: 100%; height: 500px"
     ></div>
   </div>
-  <div style="width: 100%; height: 100%">
-    <h1>Google Form</h1>
-    <iframe
-      src="https://docs.google.com/forms/d/e/1FAIpQLSei71YN9T8uguvueXc48afvPQcb30v6FatYJWDZQTksZva9OA/viewform?embedded=true"
-      width="100%"
-      height="500"
-      frameborder="0"
-      marginheight="0"
-      marginwidth="0"
-      >載入中…</iframe
-    >
-  </div>
 </template>
 
 <script>
@@ -32,12 +20,6 @@ export default {
   setup() {
     // 使用onMounted函數
     onMounted(() => {
-      hbspt.forms.create({
-        region: "na1",
-        portalId: "42188143",
-        formId: "bf1322a2-1951-41e0-8a94-6faf483eacd1",
-      });
-
       const script = document.createElement("script");
       script.src = "//embed.typeform.com/next/embed.js";
       document.body.appendChild(script);
