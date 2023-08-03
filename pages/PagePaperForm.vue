@@ -1,8 +1,5 @@
 <template>
-  <div style="width: 100%; height: 100%">
-    <h1>Paper Form</h1>
-    <div data-paperform-id="h80shffp"></div>
-  </div>
+  <div data-paperform-id="h80shffp"></div>
 </template>
 
 <script>

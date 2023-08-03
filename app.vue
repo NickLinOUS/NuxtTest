@@ -5,7 +5,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        font-size: 20px;
+        font-size: 16px;
       "
     >
       <div>
@@ -15,10 +15,10 @@
         <router-link to="pagehubspot">HubSpot</router-link>
       </div>
       <div>
-        <router-link to="pagetypeform">Typeform</router-link>
+        <router-link to="pagetypeform">Typeform ($)</router-link>
       </div>
       <div>
-        <router-link to="pagepaperform">Paper Form</router-link>
+        <router-link to="pagepaperform">Paper Form ($)</router-link>
       </div>
     </div>
     <NuxtPage />

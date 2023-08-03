@@ -1,5 +1,5 @@
 <template>
-  <h1>HubSpot</h1>
+
 </template>
 
 <script>
