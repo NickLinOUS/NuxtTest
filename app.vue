@@ -15,7 +15,7 @@
         <router-link to="pagehubspot">HubSpot</router-link>
       </div>
       <div>
-        <router-link to="surveycake">Survey Cake</router-link>
+        <router-link to="pagesurveycake">Survey Cake</router-link>
       </div>
       <div>
         <router-link to="pagetypeform">Typeform ($)</router-link>
