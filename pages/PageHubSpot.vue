@@ -1,9 +1,9 @@
 <template>
-<h1>HubSpot</h1>
+  <h1>HubSpot</h1>
 </template>
 
 <script>
-import { onMounted, ref } from "vue";
+import { onMounted } from "vue";
 export default {
   name: "Form",
   setup() {
@@ -14,6 +14,14 @@ export default {
         portalId: "42188143",
         formId: "bf1322a2-1951-41e0-8a94-6faf483eacd1",
       });
+    });
+
+    onBeforeUnmount(() => {
+      // 在组件销毁前移除生成的 DOM
+      const target = document.querySelector(".hbspt-form");
+      if (target && target.parentNode) {
+        target.parentNode.removeChild(target);
+      }
     });
     // 在setup函數中返回數據，方法等
     return {};
