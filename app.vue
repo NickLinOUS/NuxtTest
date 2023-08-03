@@ -9,19 +9,19 @@
       "
     >
       <div>
-        <router-link to="pagegoogleform">Google Form</router-link>
+        <router-link to="pagegoogleform">Google</router-link>
       </div>
       <div>
-        <router-link to="pagehubspot">HubSpot</router-link>
+        <router-link to="pagehubspot">Hub Spot</router-link>
       </div>
       <div>
         <router-link to="pagesurveycake">Survey Cake</router-link>
       </div>
       <div>
-        <router-link to="pagetypeform">Typeform ($)</router-link>
+        <router-link to="pagetypeform">Typeform</router-link>
       </div>
       <div>
-        <router-link to="pagepaperform">Paper Form ($)</router-link>
+        <router-link to="pagepaperform">Paper Form</router-link>
       </div>
     </div>
     <NuxtPage />
