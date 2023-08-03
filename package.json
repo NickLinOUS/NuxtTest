@@ -7,7 +7,7 @@
     "del": "git branch -r -d origin/master && git push origin :master",
     "push": "push-dir --dir=dist --branch=master --cleanup --allow-unclean",
     "copy": "cp-file README.md dist/README.md ",
-    "dev": "nuxt",  
+    "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate && npm run copy",
@@ -19,5 +19,8 @@
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.0",
     "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "@typeform/embed": "^2.16.0"
   }
 }

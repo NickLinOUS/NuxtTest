@@ -1,7 +1,9 @@
 <template>
   <div>
     <!-- <NuxtWelcome /> -->
-    <Yee />
+    <!-- <FileHtml /> -->
+    <Form />
+    <!-- <Typeform /> -->
     <!-- <File />
     <Testdeep /> -->
   </div>
