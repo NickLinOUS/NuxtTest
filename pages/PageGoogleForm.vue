@@ -14,6 +14,9 @@
 
 <script>
 import { onMounted, ref } from "vue";
+useHead({
+    title: 'app'
+})
 export default {
   name: "Form",
 };

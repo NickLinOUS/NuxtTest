@@ -3,6 +3,9 @@
 </template>
 
 <script>
+useHead({
+    title: 'app'
+})
 import { onMounted } from "vue";
 export default {
   name: "Form",

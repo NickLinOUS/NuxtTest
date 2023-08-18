@@ -12,6 +12,9 @@
 </template>
 
 <script>
+useHead({
+    title: 'app'
+})
 import { onMounted, ref } from "vue";
 export default {
   name: "SurveyCake",
