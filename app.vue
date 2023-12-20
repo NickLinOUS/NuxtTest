@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div
+    <!-- <div
       style="
         display: flex;
         flex-direction: row;
@@ -23,10 +23,10 @@
       <div>
         <router-link to="pagepaperform">Paper Form</router-link>
       </div>
-    </div>
+    </div> -->
     <NuxtPage />
     <!-- <NuxtWelcome /> -->
-    <!-- <FileHtml /> -->
+    <FileHtml5 />
     <!-- <Form /> -->
     <!-- <Typeform /> -->
     <!-- <File />
